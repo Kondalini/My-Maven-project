@@ -82,65 +82,7 @@ public class Exercises {
                 throw e;
             }
         }
+        return new Object[0][];
     }
-        @DataProvider(name = "generateModulusData")
-        public Object[][] generateModulusData () {
-            return new Object[][]{
-                    {1, 1, 0},
-                    {2, 1, 0},
-                    {0, 1, 0},
-                    {1, 0, 1},
-                    {-1, -1, 0},
-                    {10, 1, 0},
-                    {2, -1, 0},
-                    {2, -1, 0},
-                    {6, 2, 0},
-                    {7, 2, 1},
-                    {11, 2, 1},
-            };
-        }
-
-        @Test(dataProvider = "generateModulusData", groups = "modules")
-        public void testModulus ( int a, int b, int expectedResult) {
-            try {
-                int actualResult = a % b;
-                Assert.assertEquals(actualResult, expectedResult);
-            } catch (ArithmeticException e) {
-                Assert.assertEquals(e.getMessage(), "/ by zero");
-                if (b != 0) {
-                    throw e;
-                }
-            }
-        }
-            @DataProvider(name = "generateModulusData")
-            public Object[][] generateModulusData () {
-                return new Object[][]{
-                        {1, 1, 0},
-                        {2, 1, 0},
-                        {0, 1, 0},
-                        {1, 0, 1},
-                        {-1, -1, 0},
-                        {10, 1, 0},
-                        {2, -1, 0},
-                        {2, -1, 0},
-                        {6, 2, 0},
-                        {7, 2, 1},
-                        {11, 2, 1},
-                };
-            }
-
-            @Test(dataProvider = "generateModulusData", groups = "modules")
-            public void testModulus ( int a, int b, int expectedResult){
-                try {
-                    int actualResult = a % b;
-                    Assert.assertEquals(actualResult, expectedResult);
-                } catch (ArithmeticException e) {
-                    Assert.assertEquals(e.getMessage(), "/ by zero");
-                    if (b != 0) {
-                        throw e;
-                    }
-                }
-            }
-        }
-
+}
 

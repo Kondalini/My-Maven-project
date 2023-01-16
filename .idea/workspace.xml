@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExercisesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/Public/skillo-my-prodject/My Maven project/src/test/java",
     "settings.editor.selected.configurable": "MavenSettings"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,7 +55,7 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Exercises.testDivision">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testing.Main" />
       <module name="My Maven project" />
@@ -65,8 +69,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercises.testAddition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
+      <option name="METHOD_NAME" value="testAddition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercises.testDivision" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
+      <option name="METHOD_NAME" value="testDivision" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Exercises.testDivision" />
+        <item itemvalue="TestNG.Exercises.testAddition" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -94,8 +136,33 @@
       <option name="project" value="LOCAL" />
       <updated>1673803307049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ExercisesTests">
+      <created>1673804162897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804162897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ExercisesTests">
+      <created>1673804961461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804961461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

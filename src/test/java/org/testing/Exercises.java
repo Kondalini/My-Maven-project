@@ -82,7 +82,55 @@ public class Exercises {
                 throw e;
             }
         }
-        return new Object[0][];
     }
-}
+        @DataProvider(name = "generateModulusData")
+        public Object[][] generateModulusData() {
+            return new Object[][]{
+                    {1, 1, 0},
+                    {2, 1, 0},
+                    {0, 1, 0},
+                    {1, 0, 1},
+                    {-1, -1, 0},
+                    {10, 1, 0},
+                    {2, -1, 0},
+                    {2, -1, 0},
+                    {6, 2, 0},
+                    {7, 2, 1},
+                    {11, 2, 1},
+            };
+        }
+
+        @Test(dataProvider = "generateModulusData", groups = "modules")
+        public void testModulus(int a, int b, int expectedResult) {
+            try {
+                int actualResult = a % b;
+                Assert.assertEquals(actualResult, expectedResult);
+            } catch (ArithmeticException e) {
+                Assert.assertEquals(e.getMessage(), "/ by zero");
+                if (b != 0) {
+                    throw e;
+                }
+            }
+        }
+    }
+
+<suite name=" Exercises suite" verbose="1" parallel="methods" thread-count="4">
+<test name="Exercises Tests">
+<classes>
+<class name="Exercises"/>
+</classes>
+</test>
+</suite>
+        }
+        suite name="Web test suite" verbose="1" parallel="methods" thread-count="2">
+<test name="Parallel Tests">
+<classes>
+<class name="lecture10.ParallelTests"></class>
+<class name="lecture10.ParallelSecondTests"></class>
+<class name="lecture10.examples.ParallelTests"></class>
+<class name="lecture10.examples.ParallelSecondTests"></class>
+</classes>
+</test>
+</suite>
+
 

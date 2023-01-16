@@ -52,7 +52,7 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Exercises.testDivision">
+  <component name="RunManager" selected="TestNG.Exercises">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testing.Main" />
       <module name="My Maven project" />
@@ -62,6 +62,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercises" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,8 +119,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercises.testSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
+      <option name="METHOD_NAME" value="testSubtraction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Exercises" />
+        <item itemvalue="TestNG.Exercises.testSubtraction" />
         <item itemvalue="TestNG.Exercises.testDivision" />
         <item itemvalue="TestNG.Exercises.testAddition" />
         <item itemvalue="Application.Main" />

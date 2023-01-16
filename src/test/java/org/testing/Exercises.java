@@ -114,7 +114,7 @@ public class Exercises {
         }
     }
 
-<suite name=" Exercises suite" verbose="1" parallel="methods" thread-count="4">
+    <suite name=" Exercises suite" verbose="1" parallel="methods" thread-count="4">
 <test name="Exercises Tests">
 <classes>
 <class name="Exercises"/>

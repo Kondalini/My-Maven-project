@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="ExercisesTests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebDrivrer/WebDriverTest.java" afterDir="false" />
+    <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +58,23 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Examples">
+  <component name="RunManager" selected="TestNG.ExercisesTest.testLogin">
     <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Examples" />
       <module name="My Maven project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,35 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises.testAddition" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExercisesTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testing.*" />
+          <option name="PATTERN" value="ExersisesTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
-      <option name="METHOD_NAME" value="testAddition" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises.testDivision" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="My Maven project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
-      <option name="METHOD_NAME" value="testDivision" />
+      <option name="PACKAGE_NAME" value="ExersisesTest" />
+      <option name="MAIN_CLASS_NAME" value="ExersisesTest.ExercisesTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExercisesTest.testLogin" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Examples" />
         <item itemvalue="TestNG.Exercises" />
         <item itemvalue="TestNG.Exercises.testSubtraction" />
-        <item itemvalue="TestNG.Exercises.testDivision" />
-        <item itemvalue="TestNG.Exercises.testAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673849811060</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ExercisesTests">
+      <created>1674217469902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674217469902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

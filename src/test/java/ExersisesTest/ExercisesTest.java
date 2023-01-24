@@ -14,8 +14,8 @@ public class ExercisesTest {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().window().setPosition(new Point(-1000,0));
-        driver.get("http://training.skillo-bg.com:4200/posts/all");
+
+        driver.get("http://training.skillo-bg.com:4200/users/login");
         WebElement login = driver.findElement(By.id("nav-link-login"));
         login.click();
         String expectedLoginUrl = "http://training.skillo-bg.com:4200/users/login";
@@ -26,7 +26,7 @@ public class ExercisesTest {
         Assert.assertTrue(signInElement.isDisplayed(), "The 'Sign in' text is not displayed!");
 
         WebElement userNameField = driver.findElement(By.id("defaultLoginFormUsername"));
-        userNameField.sendKeys("alex_kr@abv.bg");
+            userNameField.sendKeys("Alex78");
         WebElement passwordField = driver.findElement(By.id("defaultLoginFormPassword"));
         passwordField.sendKeys("123456");
 
@@ -34,7 +34,7 @@ public class ExercisesTest {
         Assert.assertTrue(signInButton.isDisplayed(), "The Sign In button is disabled!");
         signInButton.click();
 
-        WebElement profileLink = driver.findElement(By.id("nav-link-profile"));
+        WebElement profileLink = driver.findElement(By.xpath("//*[@id='nav-link-profile']"));
         Assert.assertTrue(profileLink.isDisplayed(), "The profile link is not displayed!");
         profileLink.click();
 

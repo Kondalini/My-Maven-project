@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebDrivrer/WebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebDrivrer/WebDriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExercisesTest.testLogin">
+  <component name="RunManager" selected="TestNG.ExercisesTest">
     <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Examples" />
       <module name="My Maven project" />
@@ -96,6 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExercisesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExersisesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ExersisesTest" />
+      <option name="MAIN_CLASS_NAME" value="ExersisesTest.ExercisesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExercisesTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
@@ -114,31 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises.testSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="My Maven project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.testing.Exercises" />
-      <option name="METHOD_NAME" value="testSubtraction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExercisesTest" />
         <item itemvalue="TestNG.ExercisesTest.testLogin" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Examples" />
         <item itemvalue="TestNG.Exercises" />
-        <item itemvalue="TestNG.Exercises.testSubtraction" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674217469902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ExercisesTests">
+      <created>1674545984904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674545984905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

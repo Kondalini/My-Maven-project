@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebDrivrer/WebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebDrivrer/WebDriverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674545984905</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ExercisesTests update">
+      <created>1674548870446</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674548870447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +235,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ExercisesTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExercisesTests" />
+    <MESSAGE value="ExercisesTests update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExercisesTests update" />
   </component>
 </project>

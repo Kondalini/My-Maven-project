@@ -56,7 +56,3 @@ public class searchFieldTest {
             WebElement searchButton = driver.findElement(By.xpath("//*[@class='fas fa-search']"));
             searchButton.click();
             wait.until(ExpectedConditions.elementToBeClickable(searchButton));
-
-
-        }
-    }

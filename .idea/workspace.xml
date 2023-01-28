@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="ExercisesTests update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/searchFieldTest/searchFieldTest.java" afterDir="false" />
+    <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/searchFieldTest/fieldSearch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExersisesTest/ExercisesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/searchFieldTest/searchFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchFieldTest/searchFieldTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674900445265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ExercisesTests update">
+      <created>1674906251103</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674906251103</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

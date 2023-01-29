@@ -1,4 +1,4 @@
-package searchFieldTest;
+package org.searchFieldTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
@@ -51,11 +52,25 @@ public class searchFieldTest {
 
             WebElement searchField = driver.findElement(By.id("search-bar"));
             wait.until(ExpectedConditions.visibilityOf(searchField));
-            searchField.sendKeys("Test");
+            searchField.sendKeys("Alex78");
+            searchField.click();
+            Boolean isTextDisplayed = wait.until(ExpectedConditions.textToBe(By.tagName("h2"), "Alex78"));
+            Assert.assertTrue(isTextDisplayed, "The username is not displayed!");
 
-            WebElement searchButton = driver.findElement(By.xpath("//*[@class='fas fa-search']"));
-            searchButton.click();
-            wait.until(ExpectedConditions.elementToBeClickable(searchButton));
+            WebElement userAlex78 = driver.findElement(By.xpath("//*[text() = 'Alex78']"));
+            userAlex78.click();
+             wait = new WebDriverWait(driver, Duration.ofSeconds(35));
+            wait.until(ExpectedConditions.visibilityOf(userAlex78));
+            wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4200/users/3904"));
+
+
+
+
+            //WebElement searchButton = driver.findElement(By.xpath("//*[@class='fas fa-search']"));
+            //wait.until(ExpectedConditions.elementToBeClickable(searchButton));
+            //searchButton.click();
+            //wait.until(ExpectedConditions.visibilityOf(userAlex78));
+
 
 
         }

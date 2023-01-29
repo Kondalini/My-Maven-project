@@ -55,11 +55,11 @@ public class searchFieldTest {
 
             WebElement searchField = driver.findElement(By.id("search-bar"));
             wait.until(ExpectedConditions.visibilityOf(searchField));
-            searchField.sendKeys("Test");
+            searchField.sendKeys("Alex78");
 
             WebElement searchButton = driver.findElement(By.xpath("//*[@class='fas fa-search']"));
             searchButton.click();
             wait.until(ExpectedConditions.elementToBeClickable(searchButton));
             }
             }
-           
+

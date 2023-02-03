@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/addRemoveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/basic_auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/challengingDom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/checkboxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/searchFieldTest/fieldSearch" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/searchFieldTest/fieldSearch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/searchFieldTest/searchFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/searchFieldTest/searchFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,70 +43,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Public/skillo-my-prodject/My Maven project/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex_&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Public/skillo-my-prodject/My Maven project/src/test/java",
+    "last_opened_file_path": "C:/Users/alex_",
+    "settings.editor.selected.configurable": "copyright"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.searchFieldTest.searchField (1)">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+  <component name="RunManager" selected="TestNG.checkboxes.checkboxes">
+    <configuration name="addRemoveElements.addRemoveElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExercisesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="My Maven project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExersisesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExersisesTest" />
-      <option name="MAIN_CLASS_NAME" value="ExersisesTest.ExercisesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.addRemoveElements" />
+      <option name="METHOD_NAME" value="addRemoveElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="basic_auth.basicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExersisesTest.*" />
+          <option name="PATTERN" value="HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ExersisesTest" />
-      <option name="MAIN_CLASS_NAME" value="ExersisesTest.ExercisesTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.basic_auth" />
+      <option name="METHOD_NAME" value="basicAuth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="challengingDom.testchallengingDome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.challengingDom" />
+      <option name="METHOD_NAME" value="testchallengingDome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkboxes.checkboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.checkboxes" />
+      <option name="METHOD_NAME" value="checkboxes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,31 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchFieldTest.searchField" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="My Maven project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchFieldTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="searchFieldTest" />
-      <option name="MAIN_CLASS_NAME" value="searchFieldTest.searchFieldTest" />
-      <option name="METHOD_NAME" value="searchField" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.checkboxes.checkboxes" />
+        <item itemvalue="TestNG.challengingDom.testchallengingDome" />
+        <item itemvalue="TestNG.basic_auth.basicAuth" />
+        <item itemvalue="TestNG.addRemoveElements.addRemoveElements" />
         <item itemvalue="TestNG.searchFieldTest.searchField (1)" />
-        <item itemvalue="TestNG.searchFieldTest.searchField" />
-        <item itemvalue="TestNG.ExercisesTest" />
-        <item itemvalue="TestNG.ExercisesTest.testLogin" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674919546800</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ExercisesTests update">
+      <created>1674999334404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674999334405</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,5 +325,16 @@
     <MESSAGE value="ExercisesTests" />
     <MESSAGE value="ExercisesTests update" />
     <option name="LAST_COMMIT_MESSAGE" value="ExercisesTests update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HomeWork/addRemoveElements.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

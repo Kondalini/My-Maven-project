@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicLoaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/floatingMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/hovers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/RedirectLink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MultipleWindows.Multiplewindows">
+  <component name="RunManager" selected="TestNG.RedirectLink">
     <configuration name="MultipleWindows.Multiplewindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
@@ -83,6 +79,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedirectLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.RedirectLink" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dynamicLoaded.dynamicLoaded" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
@@ -95,23 +108,6 @@
       <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicLoaded" />
       <option name="METHOD_NAME" value="dynamicLoaded" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="floatingMenu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="My Maven project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.floatingMenu" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RedirectLink" />
         <item itemvalue="TestNG.MultipleWindows.Multiplewindows" />
         <item itemvalue="TestNG.hovers.hovers" />
         <item itemvalue="TestNG.hovers" />
         <item itemvalue="TestNG.dynamicLoaded.dynamicLoaded" />
-        <item itemvalue="TestNG.floatingMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675508249843</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ExercisesTests update">
+      <created>1675521457983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675521457983</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ExercisesTests update">
+      <created>1675521686960</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675521686960</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

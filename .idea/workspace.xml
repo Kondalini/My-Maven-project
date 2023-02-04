@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dragAndDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/MultipleWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicLoaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/floatingMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/hovers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +64,8 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.dynamicControl.dynamicControl">
-    <configuration name="dragAndDrop.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MultipleWindows.Multiplewindows">
+    <configuration name="MultipleWindows.Multiplewindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +74,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.dragAndDrop" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.MultipleWindows" />
+      <option name="METHOD_NAME" value="Multiplewindows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropDown.dropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicLoaded.dynamicLoaded" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +92,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.dropDown" />
-      <option name="METHOD_NAME" value="dropDown" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicLoaded" />
+      <option name="METHOD_NAME" value="dynamicLoaded" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicContent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="floatingMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicContent" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.floatingMenu" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -118,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicContent.dynamicContent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="hovers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -127,16 +127,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicContent" />
-      <option name="METHOD_NAME" value="dynamicContent" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.hovers" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicControl.dynamicControl" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="hovers.hovers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicControl" />
-      <option name="METHOD_NAME" value="dynamicControl" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.hovers" />
+      <option name="METHOD_NAME" value="hovers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.dynamicControl.dynamicControl" />
-        <item itemvalue="TestNG.dynamicContent.dynamicContent" />
-        <item itemvalue="TestNG.dynamicContent" />
-        <item itemvalue="TestNG.dropDown.dropDown" />
-        <item itemvalue="TestNG.dragAndDrop.dragAndDrop" />
+        <item itemvalue="TestNG.MultipleWindows.Multiplewindows" />
+        <item itemvalue="TestNG.hovers.hovers" />
+        <item itemvalue="TestNG.hovers" />
+        <item itemvalue="TestNG.dynamicLoaded.dynamicLoaded" />
+        <item itemvalue="TestNG.floatingMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675441380909</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ExercisesTests update">
+      <created>1675508249843</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675508249843</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,4 +1,5 @@
 package HomeWork;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.openqa.selenium.*;
@@ -60,5 +61,12 @@ public class MultipleWindows {
 
         WebElement openingNewWindowText = driver.findElement(By.xpath("//h3[contains(text(),'Opening a new window')]"));
         Assert.assertTrue(openingNewWindowText.isDisplayed());
+
+        currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals(currentUrl,"https://the-internet.herokuapp.com/windows");
+
+
+
+
     }
 }

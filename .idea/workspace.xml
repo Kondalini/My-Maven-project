@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c91f94-a103-4aa3-9787-a486eeb7bd1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/addRemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/basic_auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/challengingDom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/checkboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/dynamicControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +64,8 @@
       <recent name="C:\Users\Public\skillo-my-prodject\My Maven project\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.checkboxes.checkboxes">
-    <configuration name="addRemoveElements.addRemoveElements" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.dynamicControl.dynamicControl">
+    <configuration name="dragAndDrop.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +74,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.addRemoveElements" />
-      <option name="METHOD_NAME" value="addRemoveElements" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dragAndDrop" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic_auth.basicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dropDown.dropDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +92,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.basic_auth" />
-      <option name="METHOD_NAME" value="basicAuth" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dropDown" />
+      <option name="METHOD_NAME" value="dropDown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="challengingDom.testchallengingDome" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -111,16 +110,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.challengingDom" />
-      <option name="METHOD_NAME" value="testchallengingDome" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicContent" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkboxes.checkboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicContent.dynamicContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.checkboxes" />
-      <option name="METHOD_NAME" value="checkboxes" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicContent" />
+      <option name="METHOD_NAME" value="dynamicContent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchFieldTest.searchField (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicControl.dynamicControl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My Maven project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.searchFieldTest.*" />
+          <option name="PATTERN" value="HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.searchFieldTest" />
-      <option name="MAIN_CLASS_NAME" value="org.searchFieldTest.searchFieldTest" />
-      <option name="METHOD_NAME" value="searchField" />
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.dynamicControl" />
+      <option name="METHOD_NAME" value="dynamicControl" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.checkboxes.checkboxes" />
-        <item itemvalue="TestNG.challengingDom.testchallengingDome" />
-        <item itemvalue="TestNG.basic_auth.basicAuth" />
-        <item itemvalue="TestNG.addRemoveElements.addRemoveElements" />
-        <item itemvalue="TestNG.searchFieldTest.searchField (1)" />
+        <item itemvalue="TestNG.dynamicControl.dynamicControl" />
+        <item itemvalue="TestNG.dynamicContent.dynamicContent" />
+        <item itemvalue="TestNG.dynamicContent" />
+        <item itemvalue="TestNG.dropDown.dropDown" />
+        <item itemvalue="TestNG.dragAndDrop.dragAndDrop" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674999334405</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ExercisesTests update">
+      <created>1675441380909</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675441380909</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
